@@ -1,4 +1,10 @@
 import streamlit as st
+import subprocess
+import sys
+
+# Install shap if not already installed
+subprocess.run([sys.executable, "-m", "pip", "install", "shape"])
+
 import shap
 import pandas as pd
 import numpy as np
