@@ -3,7 +3,7 @@ import subprocess
 import sys
 
 # Install shap if not already installed
-subprocess.run([sys.executable, "-m", "pip", "install", "shape"])
+subprocess.run([sys.executable, "-m", "pip", "install", "shap"])
 
 import shap
 import pandas as pd
